@@ -41,7 +41,7 @@ app.listen(port, () => {
 
 // GET routes
 app.get('/', (req, res) => {
-    res.send('JARVIS Online')
+    res.send('JARVIS Online and Ready')
 })
 
 app.get("/data", async (req, res) => {
