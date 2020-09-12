@@ -44,6 +44,10 @@ app.get('/', (req, res) => {
     res.send('JARVIS Online and Ready')
 })
 
+app.get('/Jarvisyouthere', (req, res) => {
+    res.send('For you sir, always.');
+})
+
 app.get("/data", async (req, res) => {
     // Leaving the Post.find() method empty
     // means we want to return the entire collection of data
